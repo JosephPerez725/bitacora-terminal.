@@ -1,0 +1,53 @@
+    1  ls
+    2  cd
+    3  ls
+    4  clean
+    5  clear
+    6  -l
+    7  /..
+    8  -ls
+    9  /..
+   10  ..
+   11  /.
+   12  clear
+   13  /..
+   14  ls
+   15  cd
+   16  cd/mnt
+   17  ls
+   18  cd
+   19  ls
+   20  cd/home/user 
+   21  git in
+   22  git init
+   23  clear
+   24  ls
+   25  touch vigia.sh
+   26  clear
+   27  git config --global user.name "Joseph Perez"
+   28  git config --global user.email "alberth.perez@ucb.edu.bo"
+   29  git config --list
+   30  q
+   31  git clone https://github.com/JosephPerez725/SIS-113.git
+   32  ls
+   33  rm -rf SIS-113
+   34  ls
+   35  cd
+   36  ls
+   37  cd "/mnt/c/Users/hp omen/Desktop"
+   38  git clone [https://github.com/JosephPerez725/SIS-113.git](https://github.com/JosephPerez725/SIS-113.git)
+   39  git clone https://github.com/JosephPerez725/SIS-113.git
+   40  ls
+   41  cd bitacora_terminal
+   42  git init
+   43  mkdir comandos evidencias investigacion 
+   44  ls
+   45  touch comandos/COMANDOS.md
+   46  ls
+   47  ls comandos
+   48  git add .
+   49  git commit -m "Mi primer commit: estructura base"
+   50  echo "texto basura que arruina mi archivo">comandos/COMANDOS.md 
+   51  git restore comandos/COMANDOS.md 
+   52  git commit --allow-empty -m "prueba superada:archivo recuperado tras ruptura"
+   53  history > evidencias/sesion-casa.txt
