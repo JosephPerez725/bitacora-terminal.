@@ -116,3 +116,65 @@
   116  ls evidencias/sesion-casa.txt 
   117  cat evidencias/sesion-casa.txt 
   118  history > evidencias/sesion-casa.txt 
+  119  git add .
+  120  git commit -m "glosario de comandos y evidencias history, mas ciertos inconvenientes que surgieron con la clonacion del repo, todo quedo raro"
+  121  git push origin master 
+  122  git log --oneline
+  123  git status
+  124  tree
+  125  clear
+  126  cd ..
+  127  rm -rf SIS-113
+  128  ls
+  129  rm -rf SIS-113
+  130  git clone https://github.com/JosephPerez725/SIS-113
+  131  cd SIS-113/
+  132  git remote add upstream https://github.com/gonzalocalle-prog/SIS-113
+  133  gir remote -v
+  134  git remote -v
+  135  ls
+  136  ls Apuntes/
+  137  code -a .
+  138  ls
+  139  cd ..
+  140  cd bitacora_terminal/
+  141  ls
+  142  ls investigacion/
+  143  cd investigacion/
+  144  ls
+  145  cd borradores/
+  146  ls
+  147  cd ..
+  148  code rutas-y-directorios.md 
+  149  ls /home
+  150  ls /etc
+  151  cd .
+  152  cd ..
+  153  git add .
+  154  git commit -m "completa parte 2: investigacion de rutas y direcctorios"
+  155  git push origin main 
+  156  git push origin master
+  157  clear
+  158  ls
+  159  touch experimento.txt
+  160  ls
+  161  cp experimento.txt clon.txt
+  162  ls
+  163  mv clon.txt archivo_secreto.txt
+  164  ls
+  165  rm experimento.txt archivo_secreto.txt 
+  166  ls
+  167  ls -la
+  168  touch secreto.txt
+  169  ls
+  170  chmod 600 secreto.txt
+  171  ls
+  172  ls -la
+  173  ls
+  174  ls investigacion/
+  175  ls -la > secreto.txt 
+  176  cat secreto.txt 
+  177  cat secreto.txt | grep "comandos"
+  178  cat secreto.txt | wc -1
+  179  cat secreto.txt | wc -l
+  180  history > evidencias/sesion-casa.txt 
