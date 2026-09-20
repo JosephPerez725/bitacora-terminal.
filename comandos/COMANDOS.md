@@ -54,4 +54,3 @@ wc.-(word count) si le agregas -l cuenta lineas
 head.- muestra solo las primeras 10 lineas - cat texto.txt | head 
 
 tail.- muestra solo las ultimas 10 lineas (util para ver lo reciente)
-

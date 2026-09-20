@@ -116,6 +116,9 @@
   116  ls evidencias/sesion-casa.txt 
   117  cat evidencias/sesion-casa.txt 
   118  history > evidencias/sesion-casa.txt 
+
+
+  ---clase 3---
   119  git add .
   120  git commit -m "glosario de comandos y evidencias history, mas ciertos inconvenientes que surgieron con la clonacion del repo, todo quedo raro"
   121  git push origin master 
