@@ -51,3 +51,68 @@
    51  git restore comandos/COMANDOS.md 
    52  git commit --allow-empty -m "prueba superada:archivo recuperado tras ruptura"
    53  history > evidencias/sesion-casa.txt
+   54  git add .
+   55  git commit -m "tercer commit : evidecia de terminal guardada"
+   56  git remote add origin https://github.com/JosephPerez725/bitacora-terminal.
+   57  git push -u origin master 
+   58  git remote set-url origin https://github.com/JosephPerez725/bitacora-terminal.git
+   59  it remote set-url origin [https://github.com/JosephPerez725/bitacora-terminal.git](https://github.com/JosephPerez725/bitacora-terminal.git)
+   60  git remote set-url origin https://github.com/JosephPerez725/bitacora-terminal..git
+   61  git push -u origin master 
+   62  clear 
+   63  nano comandos/COMANDOS.md 
+   64  clear
+   65  pwd
+   66  ls
+   67  tree
+   68  pwd
+   69  ls
+   70  git pull
+   71  ls
+   72  cd ./bitacora_terminal
+   73  cd ..
+   74  cd bitacora_terminal
+   75  cd ..
+   76  cd bitacora_terminal
+   77  pwd 
+   78  ls 
+   79  cd evidencias/
+   80  cd ..
+   81  mkdir investigacion/borradores
+   82  ls
+   83  ls investigacion/
+   84  touch investigacion/rutas-y-directorios.md 
+   85  cat comandos/COMANDOS.md 
+   86  tree
+   87  ls
+   88  tree
+   89  cd ..
+   90  cd SIS-113/
+   91  mkdir java-example
+   92  cd java-example/
+   93  touch echo.java
+   94  ld
+   95  ls
+   96  cd ..
+   97  ls
+   98  cd apuntes
+   99  ls
+  100  cd ..
+  101  cd java-example/
+  102  ls
+  103  cat echo.java 
+  104  echo
+  105  cd ..
+  106  cd SIS-113/
+  107  ls
+  108  cd Apuntes/
+  109  ls
+  110  cd ..
+  111  cd bitacora_terminal/
+  112  ls
+  113  cat evidencias/
+  114  tree
+  115  history > evidencias/sesion-casa.txt 
+  116  ls evidencias/sesion-casa.txt 
+  117  cat evidencias/sesion-casa.txt 
+  118  history > evidencias/sesion-casa.txt 
