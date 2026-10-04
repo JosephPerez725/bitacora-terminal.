@@ -1,0 +1,184 @@
+    1  ls
+    2  cd
+    3  ls
+    4  clean
+    5  clear
+    6  -l
+    7  /..
+    8  -ls
+    9  /..
+   10  ..
+   11  /.
+   12  clear
+   13  /..
+   14  ls
+   15  cd
+   16  cd/mnt
+   17  ls
+   18  cd
+   19  ls
+   20  cd/home/user 
+   21  git in
+   22  git init
+   23  clear
+   24  ls
+   25  touch vigia.sh
+   26  clear
+   27  git config --global user.name "Joseph Perez"
+   28  git config --global user.email "alberth.perez@ucb.edu.bo"
+   29  git config --list
+   30  q
+   31  git clone https://github.com/JosephPerez725/SIS-113.git
+   32  ls
+   33  rm -rf SIS-113
+   34  ls
+   35  cd
+   36  ls
+   37  cd "/mnt/c/Users/hp omen/Desktop"
+   38  git clone [https://github.com/JosephPerez725/SIS-113.git](https://github.com/JosephPerez725/SIS-113.git)
+   39  git clone https://github.com/JosephPerez725/SIS-113.git
+   40  ls
+   41  cd bitacora_terminal
+   42  git init
+   43  mkdir comandos evidencias investigacion 
+   44  ls
+   45  touch comandos/COMANDOS.md
+   46  ls
+   47  ls comandos
+   48  git add .
+   49  git commit -m "Mi primer commit: estructura base"
+   50  echo "texto basura que arruina mi archivo">comandos/COMANDOS.md 
+   51  git restore comandos/COMANDOS.md 
+   52  git commit --allow-empty -m "prueba superada:archivo recuperado tras ruptura"
+   53  history > evidencias/sesion-casa.txt
+   54  git add .
+   55  git commit -m "tercer commit : evidecia de terminal guardada"
+   56  git remote add origin https://github.com/JosephPerez725/bitacora-terminal.
+   57  git push -u origin master 
+   58  git remote set-url origin https://github.com/JosephPerez725/bitacora-terminal.git
+   59  it remote set-url origin [https://github.com/JosephPerez725/bitacora-terminal.git](https://github.com/JosephPerez725/bitacora-terminal.git)
+   60  git remote set-url origin https://github.com/JosephPerez725/bitacora-terminal..git
+   61  git push -u origin master 
+   62  clear 
+   63  nano comandos/COMANDOS.md 
+   64  clear
+   65  pwd
+   66  ls
+   67  tree
+   68  pwd
+   69  ls
+   70  git pull
+   71  ls
+   72  cd ./bitacora_terminal
+   73  cd ..
+   74  cd bitacora_terminal
+   75  cd ..
+   76  cd bitacora_terminal
+   77  pwd 
+   78  ls 
+   79  cd evidencias/
+   80  cd ..
+   81  mkdir investigacion/borradores
+   82  ls
+   83  ls investigacion/
+   84  touch investigacion/rutas-y-directorios.md 
+   85  cat comandos/COMANDOS.md 
+   86  tree
+   87  ls
+   88  tree
+   89  cd ..
+   90  cd SIS-113/
+   91  mkdir java-example
+   92  cd java-example/
+   93  touch echo.java
+   94  ld
+   95  ls
+   96  cd ..
+   97  ls
+   98  cd apuntes
+   99  ls
+  100  cd ..
+  101  cd java-example/
+  102  ls
+  103  cat echo.java 
+  104  echo
+  105  ls
+  106  ls secreto.txt 
+  107  ls investigacion/
+  108  cat investigacion/rutas-y-directorios.md 
+  109  clear
+  110  cd ..
+  111  cd SIS-113/
+  112  bash verificar.sh
+  113  bash setup.sh
+  114  cd laboratorio/
+  115  bash verificar.sh 
+  116  ls
+  117  find 
+  118  ls
+  119  cd proyecto-sensores/
+  120  ls datos/
+  121  ls docs
+  122  ls src/
+  123  cd datos/
+  124  ls
+  125  wc -1 
+  126  cat sensor-01
+  127  ls sensor-0
+  128  ls sensor-01
+  129  wc-1 sensor-01
+  130  wc -1 sensor-01
+  131  cd ..
+  132  ls
+  133  cat datos/
+  134  cat datos/*.log
+  135  cd ..
+  136  cat proyecto-sensores/datos/*.log | grep´"ERROR" > proyecto-sensores/reporte-errores.txt
+  137  cat proyecto-sensores/datos/*.log | grep"ERROR" > proyecto-sensores/reporte-errores.txt
+  138  cat proyecto-sensores/datos/*.log | grep "ERROR" > proyecto-sensores/reporte-errores.txt
+  139  ls
+  140  ls proyecto-sensores/
+  141  cat proyecto-sensores/reporte-errores.txt 
+  142  bash verificar.sh 
+  143  ls
+  144  mkdir respaldos 
+  145  ls
+  146  cd respaldos/
+  147  ls
+  148  powd
+  149  pwd
+  150  cd ..
+  151  tar -czf respaldos/proyecto-$(date +%F).tar.gz proyecto-sensores
+  152  tar -tzf respaldos/proyecto-*.tar.gz
+  153  ls
+  154  ls respaldos/
+  155  bash verificar.sh 
+  156  ls proyecto-sensores/
+  157  ls
+  158  pwd
+  159  echo "Mi Bitacora de respaldo" > RESPALDO.MD
+  160  LS
+  161  ls
+  162  rm RESPALDO.MD 
+  163  LS
+  164  ls
+  165  echo "Mi Bitacora de respaldo" > RESPALDO.md 
+  166  ls
+  167  echo "#Mi Bitacora de respaldo" > RESPALDO.md 
+  168  LS
+  169  ls
+  170  cat RESPALDO.md 
+  171  echo "1. find proyecto-sensores -name '*.tmp' -o -name '*~'" >> RESPALDO.md 
+  172  cat RESPALDO.md 
+  173  echo "2. rm proyecto-sensores/datos/cache-viejo.tmp proyecto-sensores/src/prueba.tmp proyecto-sensores/docs/NOTAS.md~ : Elimine la basura" >> RESPALDO.md
+  174  echo "# Mi Bitacora de respaldo" > RESPALDO.md
+  175  echo "1. find proyecto-sensores -name '*.tmp' -o -name '*~' : Busque la basura" >> RESPALDO.md
+  176  echo "2. rm proyecto-sensores/datos/cache-viejo.tmp proyecto-sensores/src/prueba.tmp proyecto-sensores/docs/NOTAS.md~ : Elimine la basura" >> RESPALDO.md
+  177  cat RESPALDO.md 
+  178  echo "3. chmod u+x proyecto-sensores/src/analizar.sh : Permisos de ejecucion" >> RESPALDO.md 
+  179  echo "4. cat proyecto-sensores/datos/*.log | grep 'ERROR' > proyecto-sensores/reporte-errores.txt : Filtrado de errores" >> RESPALDO.md 
+  180  echo "5, mkdir respaldos: creacion de la carpeta " >>RESPALDO.md 
+  181  echo '6. tar -czf respaldos/proyecto-$(date +%F).tar.gz proyecto-sensores:Compresion final' >> RESPALDO.md 
+  182  cat RESPALDO.md 
+  183  bash verificar.sh 
+  184  history > sesion-laboratorio.txt 

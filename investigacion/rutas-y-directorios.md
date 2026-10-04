@@ -4,7 +4,7 @@
 
 /etc es basicamente las configuraciones en formato texto de linux , es la sala de control
 
-/var esta reservado para que el sistema operativo y los programas hagan cambiosa por detras de forma automatica  
+/var esta reservado para que el sistema operativo y los programas hagan cambios por detras de forma automatica  
 
 /tmp (temporal) los programas usan esta especie de bloc de notas donde hacen calculos rapidos o guardar cosas por un instante , la regla es que no se debe guardar nada importante ahi, ya que cada vez que la computadora se reincia o apaga el sistema borra todo lo que hay dentro 
 
